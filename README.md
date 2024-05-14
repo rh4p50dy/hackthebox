@@ -1,2 +1,2 @@
 # hackthebox
-##Just me and my write-ups HeHe :3
+Just me and my write-ups HeHe :3
